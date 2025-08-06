@@ -8,10 +8,10 @@
 - **构建工具**: Maven
 - **容器化**: Docker, Docker Compose
 - **API网关**: Spring Cloud Gateway
-- **数据库**: MySQL (推测)
-- **消息队列**: RabbitMQ/Kafka (推测)
-- **服务发现与注册**: Eureka/Nacos (推测)
-- **负载均衡**: Ribbon (推测)
+- **数据库**: MySQL
+- **消息队列**: Kafka 
+- **服务发现与注册**: Eureka/Nacos
+- **负载均衡**: Ribbon
 
 ## 项目结构
 ```
@@ -90,12 +90,11 @@ docker-compose up -d
 2. **Kubernetes**：适用于生产环境 (需额外配置)
 
 ## 文档
-- [API文档](http://localhost:8080/swagger-ui.html) (假设启用了Swagger)
-- [开发指南](docs/development_guide.md) (待完善)
-- [数据库设计](docs/database_design.md) (待完善)
+- [API文档](http://localhost:8080/swagger-ui.html) 
 
 ## 贡献
 欢迎提交issue和pull request来改进系统。
 
 ## 许可证
+
 本项目采用MIT许可证。
